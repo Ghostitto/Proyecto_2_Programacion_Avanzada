@@ -3,3 +3,4 @@ def format_text(text: str, maxWidth: int) -> list[str]:
     de cada fila del texto resultante."""
     lista_palabras =  text.split()
     return lista_palabras
+
