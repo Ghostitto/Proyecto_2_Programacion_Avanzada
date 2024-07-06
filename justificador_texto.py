@@ -49,13 +49,13 @@ def format_text(text: str, maxWidth: int) -> list[str]:
         respuesta += [[lista_palabras[-1]]]
 
 
-    return len(respuesta)
+    return respuesta
 
 
 
 
-# Ejemplo con cual funciona
-# print(format_text("buenas tardes, como está, yo estoy super bien", 15))
+#Ejemplo con cual funciona
+print(format_text("buenas tardes, como está, yo estoy super bien", 15))
 
 
 
