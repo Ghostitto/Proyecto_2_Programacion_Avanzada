@@ -1,7 +1,7 @@
 import numpy as np
 
 # Function to find longest common substring. 
-def LCSubStr(X, Y) : 
+def LCSubStr(X, Y): 
  
     # Find length of both the strings. 
     m = len(X) 
